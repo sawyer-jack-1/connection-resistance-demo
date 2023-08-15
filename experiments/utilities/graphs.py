@@ -1,11 +1,5 @@
-# import numpy as np
-import autograd.numpy as np
-
-from scipy.sparse.linalg import inv
-from scipy.sparse import csc_matrix
-import networkx as nx
-import matplotlib.pyplot as plt
 import scipy
+import numpy as np
 
 from utilities.rotation_matrices import Rxyz, Rx2D, Rx1D
 

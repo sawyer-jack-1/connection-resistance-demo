@@ -1,5 +1,5 @@
-import autograd.numpy as np
 import math as m
+import numpy as  np
 
 def Rxyz(rotations):
     theta_x, theta_y, theta_z = rotations
