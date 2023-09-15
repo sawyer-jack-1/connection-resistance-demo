@@ -1,5 +1,5 @@
 ## Numerical experiments section 6.2.1
-This folder contains experiments for section 6.2.1 in 
+This folder contains experiments for section 6.2.1 in the paper
 Random Walks, Conductance, and Resistance for the Connection Graph Laplacian
 
 Code by Andreas Oslandsbotn
