@@ -29,7 +29,7 @@ class ConnectionResistance():
     def get_edges(self):
         return self.edges
 
-    ############################################
+    ###################################
     #### Calc effective resistance ####
     ###################################
     def calc_effective_resistance(self):

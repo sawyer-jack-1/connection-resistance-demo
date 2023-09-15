@@ -21,7 +21,6 @@ from config.yaml_functions import yaml_loader
 
 if __name__=='__main__':
     experiment_name = 'dumbbell_graph'
-    indices = [(0,1), (0,2), (0,3), (0,7)]
     indices_markfan_exp = [(0,1), (1, 2), (3, 4), (6, 7)]
     conf_cg = yaml_loader(CONFIG_DUMBBELL_GRAPH)
     tag = "_deg90"
@@ -88,7 +87,7 @@ if __name__=='__main__':
     yticks = [-3, 0, 3]
     edges = connectionResistance.get_edges()
 
-    fig, axes = plt.subplots(1, len(indices), figsize=(17, 3))
+    fig, axes = plt.subplots(1, len(indices_markfan_exp), figsize=(17, 3))
     for k, (i,j) in enumerate(indices_markfan_exp):
         axes[k].plot([0, rotations[-1]], [er_standard[i, j], er_standard[i, j]],
                      color=color_map['color_darkgray'],
